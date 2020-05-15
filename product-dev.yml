@@ -1,5 +1,5 @@
 server:
-  port: 9002 #端口
+  port: 9001 #端口
 spring:
   application:
     name: service-product #服务名称
@@ -20,4 +20,4 @@ eureka:
   instance:
     prefer-ip-address: true #使用ip地址注册
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
-name: itcast-pro
+name: itcast-dev
