@@ -20,4 +20,4 @@ eureka:
   instance:
     prefer-ip-address: true #使用ip地址注册
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
-name: itcast-dev
+name: itcast-dev1111
